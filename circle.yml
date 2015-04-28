@@ -12,7 +12,7 @@ test:
     - python web/tests.py
 
 deployment:
-	hub:
-		branch: master
-		commands:
-			- $DEPLOY
+  hub:
+    branch: master
+    commands:
+      - $DEPLOY
